@@ -6,6 +6,7 @@ import Loadable from 'ui-component/Loadable';
 
 // dashboard routing
 const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')));
+const ChatPage = Loadable(lazy(() => import('views/pages/chatPage')));
 
 // ==============================|| MAIN ROUTING ||============================== //
 
@@ -25,7 +26,11 @@ const MainRoutes = {
           element: <DashboardDefault />
         }
       ]
-    }
+    },
+    {
+      path: '/chat',
+      element: <ChatPage />
+    },
   ]
 };
 
