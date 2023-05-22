@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
 *, *::after, *::before{
     margin: 0;
     border: 0;
@@ -8,6 +9,9 @@
     padding: 0;
 
 
+}
+body{
+    overflow: hidden;
 }
 :root{
     --primary-hue:210;
@@ -71,13 +75,21 @@ img{
     border-radius: 1.5rem;
     transition: var(--transition);
 }
+.btn-other{
+    color: #000;
+    width: fit-content;
+    margin:  0 auto;
+    padding: 0.9rem 2rem;
+   
+    border-radius: 1.5rem;
+    transition: var(--transition);
+}
 .btn:hover{
     background: var(--color-secondary);
     color: var(--color-gray-600);
 }
 .btn.lg{
-    padding: 1.2rem 3rem;
-    border-radius: 2rem;
+    border-radius: 10px;
     font-size: 1.1rem;
 }
 .btn-sm{

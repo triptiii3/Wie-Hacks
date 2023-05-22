@@ -1,7 +1,8 @@
 nav{
-    height: 5rem;
+    background: #000;
+    height: 2rem;
     width: 100vw;
-    background: var(--color-primary);
+  
     display: grid;
     place-items: center;
     position: fixed;
@@ -9,6 +10,7 @@ nav{
     left: 0;
     z-index: 99;
 }
+
 /*only shows on mediums and small screens*/
 .nav__container{
     height: 100%;
@@ -43,13 +45,9 @@ nav{
 .active-nav::after{
 content: '';
 display: block;
-width: 1.2rem;
-height: 1.2rem;
-background: var(--color-primary);
-position: absolute;
-left: calc(50%-0.6rem);
-transform: rotate(45deg);
-margin-top: 0.5rem;
+width:fit-content;
+background: #fff;
+height: 2px;
 }
 /* Media Queries*/
 

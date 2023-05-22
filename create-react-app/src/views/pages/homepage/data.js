@@ -1,26 +1,11 @@
 export const links = [
     {
-        name: "Home",
+        name: "Student",
         path: '/'
     },
     {
-        name: "About",
-        path: '/about'
+        name: "Experienced User",
+        path: '/Experienced'
     },
-    {
-        name: "Gallery",
-        path: '/gallery'
-    },
-    {
-        name: "Plans",
-        path: '/plans'
-    },
-    {
-        name: "Trainers",
-        path: '/trainers'
-    },
-    {
-        name: "Contact",
-        path: '/contact'
-    }
+    
 ]
