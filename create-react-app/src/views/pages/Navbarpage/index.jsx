@@ -3,7 +3,7 @@ import { useState } from 'react'
 import {GoThreeBars} from 'react-icons/go'
 
 import React from 'react'
-import { links } from './data'
+import { links } from '../homepage/data'
 // import Logo from '../images/Gymgenix.png'
 import { NavLink } from 'react-router-dom'
 import{MdOutlineClose} from 'react-icons/md'

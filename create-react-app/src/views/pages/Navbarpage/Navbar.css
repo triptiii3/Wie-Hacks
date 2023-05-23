@@ -1,6 +1,6 @@
 nav{
-    background: #000;
-    height: 2rem;
+    background: #1b1b1b;
+    height: 3rem;
     width: 100vw;
   
     display: grid;
@@ -29,7 +29,7 @@ nav{
 }
 .nav__links{
     display: flex;
-    gap: 3.5rem;
+    gap: 2rem;
     align-items: center;
 
 }
@@ -37,7 +37,7 @@ nav{
     transition: var(--transiiton);
 }
 .nav__links a:hover{
-    color: var(--color-secondary);
+    color: #0087ca;
 }
 .active-nav{
     position: relative;
@@ -45,10 +45,28 @@ nav{
 .active-nav::after{
 content: '';
 display: block;
-width:fit-content;
+width:20px;
 background: #fff;
 height: 2px;
 }
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 /* Media Queries*/
 
 @media screen and (max-width:1024px){

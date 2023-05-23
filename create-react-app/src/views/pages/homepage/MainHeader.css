@@ -26,6 +26,7 @@
     display: flex;
     position: relative;
     left: 213px;
+    top: 20px;
 }
 .main__header-left h4{
 margin-bottom: 1rem;

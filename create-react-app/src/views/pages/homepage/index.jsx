@@ -17,7 +17,7 @@ const MainHeader = () => {
             </div>
             <div className="main__header-right">
                 <div className='buttons'><a href='/pages/login/login3' className='btn-other'> Login</a>
-                <a href='#' className='btn md'> Register here</a></div>
+                <a href='#' className='btn lg'> Register here</a></div>
                 
                 <div className="main__header-circle"></div>
                 <div className="main__header-image">

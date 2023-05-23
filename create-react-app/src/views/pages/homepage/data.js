@@ -1,6 +1,6 @@
 export const links = [
     {
-        name: "Student",
+        name: "New User",
         path: '/'
     },
     {
